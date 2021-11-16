@@ -9,17 +9,51 @@
     />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/featuredCourse.css" />
+    <link rel="stylesheet" href="css/desktop.css" />
     <title>The Code Chaser</title>
   </head>
   <body>
     <!-- #### header-section #### -->
     <header>
       <!-- <div class="header"> -->
-      <img src="images/header-logo.png" class="header-logo" />
+      <a href="index.html"><img src="images/header-logo.png" class="header-logo" /></a>
 
       <!-- #### navbar-section #### -->
       <nav>
-        <img src="images/hamburger-icon.png" class="hamburger-icon" />
+        <div class="desktop-nav">
+          <ul class="desktop-menu-items">
+            <li>
+            <a class="desktop-menu-item" href="#">About</a>
+             <li>
+            <a class="desktop-menu-item" href="#">Program</a>
+            </li>
+             <li>
+            <a class="desktop-menu-item" href="#">Courses</a>
+            </li>
+             <li>
+            <a class="desktop-menu-item" href="#">Sponser</a>
+            </li>
+          </ul>
+        </div>
+        <div class="mobile-nav">
+     <button class="btn-open" ><img src="images/hamburger-icon.png" class="hamburger-icon" /></button>  
+        <div class="mobile-menu-container">
+              <button class="btn-close" type="button">X</button>
+          <ul class="mobile-menu-items">
+            <li>
+            <a class="mobile-menu-item" href="#">About</a>
+             <li>
+            <a class="mobile-menu-item" href="#">Program</a>
+            </li>
+             <li>
+            <a class="mobile-menu-item" href="#">Courses</a>
+            </li>
+             <li>
+            <a class="mobile-menu-item" href="#">Sponser</a>
+            </li>
+          </ul>
+        </div>
+        </div>
       </nav>
       <!-- </div> -->
     </header>
@@ -29,7 +63,7 @@
 
       <!-- #### hero-section #### -->
       <section class="hero-section">
-        <h2 class="headline-heading1">"Hello! technology lovers"</h2>
+        <h2 class="headline-heading1">"Hello! technology geeks"</h2>
         <h2 class="headline-heading2">
           BECOME A PROFESSIONAL REMOTE WEB DEVELOPER
         </h2>
@@ -38,8 +72,13 @@
           become a professional remote web developer. Change your career into
           tech now
         </p>
+        <div class="headline-img-container">
+          <div>
         <h2 class="headline-heading3">NEXT COHORT STARTING IN 15 DAYS</h2>
         <p class="headline-details2">Book your enrolment now</p>
+        </div>
+        <img class="hero-img" alt="hero image" src="images/hero-bg.png">
+        </div>
       </section>
 
       <!-- #### highlight-content-sectionn #### -->
@@ -50,27 +89,27 @@
           <div class="highlight-item">
             <img class="highlight-item-icon" src="images/highlight-icon1.png">
             <h3 class="highlight-item-heading">Projects</h3>
-            <p class="highlight-item-details">We believe in project based learning, you build industry level projects from your first day</p>
+            <p class="highlight-item-details">We believe in project based learning, you build industry level projects.</p>
           </div>
           <div class="highlight-item">
             <img class="highlight-item-icon" src="images/highlight-icon2.png">
             <h3 class="highlight-item-heading">Material</h3>
-            <p class="highlight-item-details">We have best open-source study material from internet, That will teach you how to become professional web developer</p>
+            <p class="highlight-item-details">We have best open-source study material from internet, That will teach you.</p>
           </div>
           <div class="highlight-item">
             <img class="highlight-item-icon" src="images/highlight-icon3.png">
             <h3 class="highlight-item-heading">Patern</h3>
-            <p class="highlight-item-details">Our study pattern is diffrent from many online school, we focus on mastry based learning</p>
+            <p class="highlight-item-details">Our study pattern is diffrent from many online school, we focus on mastry learning.</p>
           </div>
           <div class="highlight-item">
             <img class="highlight-item-icon" src="images/highlight-icon4.png">
             <h3 class="highlight-item-heading">Jobs</h3>
-            <p class="highlight-item-details">Our career coaches are help you to find your dream job, Get high paying jobs after completing the bootcamp</p>
+            <p class="highlight-item-details">Our career coaches are help you to find your dream job, Get high paying jobs.</p>
           </div>
           <div class="highlight-item">
             <img class="highlight-item-icon" src="images/highlight-icon5.png">
             <h3 class="highlight-item-heading">Help</h3>
-            <p class="highlight-item-details">Our staff is available for you all the time to help you with your technical and non-technical quastions</p>
+            <p class="highlight-item-details">Our staff is available for you all the time to help you with quastions.</p>
           </div>
         </div>
         <button class="button join-us">Enroll now and confirm your spot</button>
@@ -83,15 +122,44 @@
 
     <!-- #### footer-section #### -->
     <footer>
+
+      <!-- #### partners-section #### -->
+      <section class="partners-section">
+        <h2 class="partners-heading">Partners</h2>
+        <hr>
+        <div class="partners-container">
+          <ul class="partners-items">
+            <li><img alt="partner brand" class="partner-img" src="images/microsoft.png"></li>
+            <li><img alt="partner brand" class="partner-img" src="images/mackafee.png"></li>
+            <!-- <li><img alt="partner brand" class="partner-img" src="images//parasoft.png"></li> -->
+            <li><img alt="partner brand" class="partner-img" src="images/data-expert.png"></li>
+            <li><img alt="partner brand" class="partner-img" src="images/eset.png"></li>
+            <li><img alt="partner brand" class="partner-img" src="images/tenable.png"></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- #### contact-form-section #### -->
       <section class="contact-container">
-        <form action="" method="post">
-          <input type="text" placeholder="Name*" required>
-          <input type="email" placeholder="Email*" required>
-          <textarea type="text" placeholder="Type your message here*" required></textarea>
+        <h2 class="contact-heading">Contact Us</h2>
+        <hr class="contact-hr">
+        <p class="contact-details">Contact us for know more about TheCodeChaser, send us your quastions and quaries using this form</p>
+        <form action="https://formspree.io/f/mayazvnq" method="post" class="contact-form">
+          <input aria-label="Name" type="text" placeholder="Name*" required name="user-name" maxlength="30">
+          <input aria-label="Email" type="email" placeholder="Email*" required name="user_email">
+          <textarea cols="30" rows="10" aria-label="Message" type="text" placeholder="Type your message here*" required name="user_msg" maxlength="500"></textarea>
+        <button class="button contact">Submit</button>
         </form>
+      </section>
+
+      <!-- #### copyright-section #### -->
+      <section class="copyright-section">
+        <img alt="copyright logo" src="images/header-logo.png" class="copyright-logo">
+        <p class="copyright-details">2021 TheCodeChaser All Rights Reserved</p>
       </section>
     </footer>
 
     <script src="js/featuredCourse.js" defer></script>
+    <script src="js/mobileMenu.js" defer></script>
   </body>
 </html>

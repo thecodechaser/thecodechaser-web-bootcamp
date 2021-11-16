@@ -27,7 +27,7 @@
  margin-top: 0;
 }
 
-ul {
+.feature-techs {
   margin-top: -20px;
   display: flex;
   list-style-type: none;
@@ -35,7 +35,7 @@ ul {
   font-size: 15px;
   gap: 20px;
  color: #ec5242;
- flex-wrap: wrap;
+ font-weight: 100;
 }
 
 .course-details {
@@ -47,8 +47,9 @@ ul {
 .course-button {
   background-color: #ec5242;
   border: none;
-  height: 60px;
+  padding: 15px;
   cursor: pointer;
   color: white;
   font-size: 17px;
+  border-radius: 7px;
 }

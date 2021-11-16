@@ -36,7 +36,7 @@ function display() {
   <img class="course-image" src="${courses[0].image}">
   <div class="feature-details">
   <h2 class="course-title">${courses[0].title}<h2>
-  <ul>
+  <ul class="feature-techs">
   <li>${courses[0].techs[0]}</li>
   <li>${courses[0].techs[1]}</li>
   <li>${courses[0].techs[2]}</li>
@@ -50,7 +50,7 @@ function display() {
   <img class="course-image" src="${courses[1].image}">
   <div class="feature-details">
   <h2 class="course-title">${courses[1].title}<h2>
-  <ul>
+  <ul class="feature-techs">
   <li>${courses[1].techs[0]}</li>
   <li>${courses[1].techs[1]}</li>
   <li>${courses[1].techs[2]}</li>
@@ -64,7 +64,7 @@ function display() {
   <img class="course-image" src="${courses[2].image}">
   <div class="feature-details">
   <h2 class="course-title">${courses[2].title}<h2>
-  <ul>
+  <ul class="feature-techs">
   <li>${courses[2].techs[0]}</li>
   <li>${courses[2].techs[1]}</li>
   <li>${courses[2].techs[2]}</li>
