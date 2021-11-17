@@ -1,55 +1,104 @@
 /* featured courses stylesheet */
 
-.feature-heading {
+.featured-tutors {
+ margin-top: 50px;
+}
+
+ .feature-heading {
   color: #4F4C4D;
   text-align: center;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
-.feature-content {
-  padding: 20px 10px;
-}
-
-.feature-item {
+.tutors {
+  padding: 50px 30px;
   display: flex;
-  gap: 20px;
-  margin-top: 50px;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
-.course-image {
-  width: 200px;
-  height: 200px;
+.tutor {
+  display: flex;
 }
 
-.course-title {
+.tutor-img-cont {
+  position: relative;
+}
+
+.tutor-img1 {
+  width: 70px;
+  height: 70px;
+}
+
+.tutor-img2 {
+  position: absolute;
+  left: 30px;
+  top: 25px;
+  width: 150px;
+  height: 150px;
+}
+
+.tutor-info {
+  margin-left: 150px;
+  width: 50%;
+}
+
+.tutor-name {
  color: #4F4C4D;
- font-family: 20px;
- margin-top: 0;
+  margin-bottom: 0
 }
 
-.feature-techs {
-  margin-top: -20px;
-  display: flex;
-  list-style-type: none;
-  padding-left: 0;
-  font-size: 15px;
-  gap: 20px;
- color: #ec5242;
- font-weight: 100;
+.tutor-work {
+  margin-top: 5px;
+  color: #ec5242;
+  font-style: italic;
+  font-size: 16px;
 }
 
-.course-details {
-  color: #606060;
-  font-size: 15px;
-  font-weight: lighter;
+.tutor-details {
+  margin-top: 25px;
+  color: #4F4C4D;
 }
 
-.course-button {
-  background-color: #ec5242;
+.more {
+  display: none;
+}
+
+.btn-more {
   border: none;
-  padding: 15px;
+  margin: auto;
   cursor: pointer;
-  color: white;
-  font-size: 17px;
-  border-radius: 7px;
+  color: #4F4C4D;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.fas {
+  color: #ec5242;
+}
+
+/* desktop style */
+
+@media screen and (min-width: 768px) {
+  
+  .tutors {
+  padding: 50px 70px;
+}
+
+  .tutor {
+  width: 50%;
+}
+
+.dekstop-div {
+  display: flex;
+}
+
+.more {
+  display: block;
+}
+
+.btn-more {
+  display: none;
+}
+
 }

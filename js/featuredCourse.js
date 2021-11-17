@@ -1,80 +1,158 @@
-const courses = [
+const tutors = [
   {
-    image: "images/front-end.png",
-    title: "Front-End Development",
-    techs: ["html", "css", "javascript"],
+    image1: "images/tiles.svg",
+    image2: "images/tutor.jpg",
+    name: "Ranjeet Singh",
+    work: "Bachlor from Teerthanker Mahaveer university",
     details:
-      "Learn Front-End development from scratch and boost your knowledge in html, css , and javascript.",
-    knowMore: "Know More",
+      "Experienced in front end and backend development, teach students remotly using many tools.",
   },
 
   {
-    image: "images/back-end.png",
-    title: "Back-End Development",
-    techs: ["ruby", "node", "java"],
+    image1: "images/tiles.svg",
+    image2: "images/tutor.jpg",
+    name: "Ranjeet Singh",
+    work: "Bachlor from Teerthanker Mahaveer university",
     details:
-      "Learn Back-End development from scratch and boost your knowledge in ruby, node , and java.",
-    knowMore: "Know More",
+      "Experienced in front end and backend development, teach students remotly using many tools.",
   },
 
   {
-    image: "images/full-stack.png",
-    title: "Full-Stack Development",
-    techs: ["html", "ruby", "node"],
-    details: "Learn Full-Stack development from scratch and boost your knowledge in html, css , javascript, ruby, and node.",
-    knowMore: "Know More",
+    image1: "images/tiles.svg",
+    image2: "images/tutor.jpg",
+    name: "Ranjeet Singh",
+    work: "Bachlor from Teerthanker Mahaveer university",
+    details:
+      "Experienced in front end and backend development, teach students remotly using many tools.",
+  },
+
+  {
+    image1: "images/tiles.svg",
+    image2: "images/tutor.jpg",
+    name: "Ranjeet Singh",
+    work: "Bachlor from Teerthanker Mahaveer university",
+    details:
+      "Experienced in front end and backend development, teach students remotly using many tools.",
+  },
+
+  {
+    image1: "images/tiles.svg",
+    image2: "images/tutor.jpg",
+    name: "Ranjeet Singh",
+    work: "Bachlor from Teerthanker Mahaveer university",
+    details:
+      "Experienced in front end and backend development, teach students remotly using many tools.",
+  },
+
+  {
+    image1: "images/tiles.svg",
+    image2: "images/tutor.jpg",
+    name: "Ranjeet Singh",
+    work: "Bachlor from Teerthanker Mahaveer university",
+    details:
+      "Experienced in front end and backend development, teach students remotly using many tools.",
   },
 ];
 
 function display() {
-  const container = document.querySelector(".featured-courses");
+  const container = document.querySelector(".featured-tutors");
   container.innerHTML = `
-  <h2 class="feature-heading">Featured Courses</h2>
-  <div class="feature-content">
+  <h2 class="feature-heading">Featured Tutors</h2>
   <hr>
-  <div class="feature-item">
-  <img class="course-image" src="${courses[0].image}">
-  <div class="feature-details">
-  <h2 class="course-title">${courses[0].title}<h2>
-  <ul class="feature-techs">
-  <li>${courses[0].techs[0]}</li>
-  <li>${courses[0].techs[1]}</li>
-  <li>${courses[0].techs[2]}</li>
-  </ul>
-  <p class="course-details">${courses[0].details}</p>
-  <button class="course-button">${courses[0].knowMore}</button>
+  <div class="tutors">
+
+  <div class="dekstop-div">
+  <div class="tutor">
+  <div class="tutor-img-cont">
+  <img class="tutor-img1" alt="tutor image" src="${tutors[0].image1}">
+  <img class="tutor-img2" alt="tutor image" src="${tutors[0].image2}">
+  </div>
+  <div class="tutor-info">
+  <h2 class="tutor-name">${tutors[0].name}</h2>
+  <p class="tutor-work">${tutors[0].work}</p>
+  <p class="tutor-details">${tutors[0].details}</p>
   </div>
   </div>
 
-  <div class="feature-item">
-  <img class="course-image" src="${courses[1].image}">
-  <div class="feature-details">
-  <h2 class="course-title">${courses[1].title}<h2>
-  <ul class="feature-techs">
-  <li>${courses[1].techs[0]}</li>
-  <li>${courses[1].techs[1]}</li>
-  <li>${courses[1].techs[2]}</li>
-  </ul>
-  <p class="course-details">${courses[1].details}</p>
-  <button class="course-button">${courses[1].knowMore}</button>
+  <div class="tutor">
+  <div class="tutor-img-cont">
+  <img class="tutor-img1" alt="tutor image" src="${tutors[1].image1}">
+  <img class="tutor-img2" alt="tutor image" src="${tutors[1].image2}">
+  </div>
+  <div class="tutor-info">
+  <h2 class="tutor-name">${tutors[1].name}</h2>
+  <p class="tutor-work">${tutors[1].work}</p>
+  <p class="tutor-details">${tutors[1].details}</p>
+  </div>
   </div>
   </div>
 
-  <div class="feature-item">
-  <img class="course-image" src="${courses[2].image}">
-  <div class="feature-details">
-  <h2 class="course-title">${courses[2].title}<h2>
-  <ul class="feature-techs">
-  <li>${courses[2].techs[0]}</li>
-  <li>${courses[2].techs[1]}</li>
-  <li>${courses[2].techs[2]}</li>
-  </ul>
-  <p class="course-details">${courses[2].details}</p>
-  <button class="course-button">${courses[2].knowMore}</button>
+  <button class="btn-more">More<i class="fas fa-chevron-down"></i></button>
+  <div class="more">
+  <div class="dekstop-div">
+  <div class="tutor">
+  <div class="tutor-img-cont">
+  <img class="tutor-img1" alt="tutor image" src="${tutors[2].image1}">
+  <img class="tutor-img2" alt="tutor image" src="${tutors[2].image2}">
+  </div>
+  <div class="tutor-info">
+  <h2 class="tutor-name">${tutors[2].name}</h2>
+  <p class="tutor-work">${tutors[2].work}</p>
+  <p class="tutor-details">${tutors[2].details}</p>
   </div>
   </div>
+
+  <div class="tutor">
+  <div class="tutor-img-cont">
+  <img class="tutor-img1" alt="tutor image" src="${tutors[3].image1}">
+  <img class="tutor-img2" alt="tutor image" src="${tutors[3].image2}">
+  </div>
+  <div class="tutor-info">
+  <h2 class="tutor-name">${tutors[3].name}</h2>
+  <p class="tutor-work">${tutors[3].work}</p>
+  <p class="tutor-details">${tutors[3].details}</p>
+  </div>
+  </div>
+  </div>
+
+  <div class="dekstop-div">
+  <div class="tutor">
+  <div class="tutor-img-cont">
+  <img class="tutor-img1" alt="tutor image" src="${tutors[4].image1}">
+  <img class="tutor-img2" alt="tutor image" src="${tutors[4].image2}">
+  </div>
+  <div class="tutor-info">
+  <h2 class="tutor-name">${tutors[4].name}</h2>
+  <p class="tutor-work">${tutors[4].work}</p>
+  <p class="tutor-details">${tutors[4].details}</p>
+  </div>
+  </div>
+
+  <div class="tutor">
+  <div class="tutor-img-cont">
+  <img class="tutor-img1" alt="tutor image" src="${tutors[5].image1}">
+  <img class="tutor-img2" alt="tutor image" src="${tutors[5].image2}">
+  </div>
+  <div class="tutor-info">
+  <h2 class="tutor-name">${tutors[5].name}</h2>
+  <p class="tutor-work">${tutors[5].work}</p>
+  <p class="tutor-details">${tutors[5].details}</p>
+  </div>
+  </div>
+  </div>
+  </div>
+
   </div>
   `;
+
+  const btnMore = document.querySelector(".btn-more");
+  const more = document.querySelector(".more");
+  function show(){
+    more.style.display="block";
+    btnMore.style.display="none";
+  }
+  
+  btnMore.addEventListener('click', show);
 }
 
 display();

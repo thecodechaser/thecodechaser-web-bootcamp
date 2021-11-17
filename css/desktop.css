@@ -46,8 +46,17 @@
     color: #606060;
   }
 
+  .desktop-menu-item1 {
+     text-decoration: none;
+    color: #606060;
+    border: 2px solid #ec5242;
+    margin-left: 30px;
+    padding: 7px 7px;
+  }
+
   .desktop-menu-item:hover {
     color: #ec5242;
+    text-decoration: underline;
   }
 
   /* hero-section */
