@@ -87,7 +87,7 @@ function display() {
   </div>
   </div>
 
-  <button class="btn-more">More<i class="fas fa-chevron-down"></i></button>
+  <button type="button" class="btn-more">More<i class="fas fa-chevron-down"></i></button>
   <div class="more">
   <div class="dekstop-div">
   <div class="tutor">
