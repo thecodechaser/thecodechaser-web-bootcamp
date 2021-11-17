@@ -21,6 +21,7 @@
 }
 
 .highlight-item:hover {
+  border: 1px solid white;
   cursor: pointer;
     transition: 1s ease-in-out;
     transform: scale(1.08);
