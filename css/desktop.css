@@ -1,0 +1,143 @@
+/* desktop stylesheet */
+
+@media screen and (min-width: 768px) {
+
+  /* header-section */
+
+  .header {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    padding: 10px 125px;
+  }
+
+  .fab {
+    color: white;
+  }
+
+  .header-menu {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+  }
+
+  .header2 {
+    padding: 0 120px;
+  }
+
+  /* nav-bar-section */
+
+  .mobile-nav {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: block;
+  }
+
+  .desktop-menu-items {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+  }
+
+  .desktop-menu-item {
+    text-decoration: none;
+    color: #606060;
+  }
+
+  .desktop-menu-item:hover {
+    color: #ec5242;
+  }
+
+  /* hero-section */
+
+  .hero-section {
+    padding: 30px 250px;
+  }
+
+  .headline-img-container {
+    display: flex;
+  }
+
+  .hero-img {
+    height: 220px;
+  width: 400px;
+  margin: 0;
+  }
+  
+  .aim {
+    padding: 30px 250px;
+  }
+
+  .achievments {
+    padding: 30px 250px;
+  }
+
+  .ach-container {
+    flex-direction: row;
+  }
+
+  /* hightlight-content-section */
+
+  hr {
+  text-align: center;
+  width: 5%;
+}
+
+  .hightlight-content {
+    padding: 20px 100px;
+    flex-direction: row;
+  }
+
+  .highlight-item {
+    flex-direction: column;
+    width: 300px;
+    padding: 5px 15px;
+    align-items: center;
+  }
+
+  .highlight-item-icon {
+    height: 50px;
+    width: 50px;
+  }
+
+  .highlight-item-heading {
+   padding-right: 20px;
+   margin-bottom: 0;
+  }
+
+  .highlight-item-details {
+    letter-spacing: 0;
+    width: 100%;
+  }
+
+  .button.join-us {
+    display: none;
+  }
+
+  .highight-end {
+  display: block;
+  color: white;
+  text-align: center;
+  margin: 30px 0;
+}
+
+  /* partners-section */
+
+  .partners-container {
+    padding: 50px 100px;
+  }
+
+  /* contact-form-section */
+  
+  .contact-form {
+    margin-left: 38%;
+  }
+
+  /* copyright-section */
+
+  .copyright-section {
+    padding-left: 36%;
+  }
+}
