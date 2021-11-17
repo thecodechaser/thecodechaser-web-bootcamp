@@ -1,61 +1,61 @@
 const tutors = [
   {
-    image1: "images/tiles.svg",
-    image2: "images/tutor.jpg",
-    name: "Ranjeet Singh",
-    work: "Bachlor from Teerthanker Mahaveer university",
+    image1: 'images/tiles.svg',
+    image2: 'images/tutor.jpg',
+    name: 'Ranjeet Singh',
+    work: 'Bachlor from Teerthanker Mahaveer university',
     details:
-      "Experienced in front end and backend development, teach students remotly using many tools.",
+      'Experienced in front end and backend development, teach students remotly using many tools.',
   },
 
   {
-    image1: "images/tiles.svg",
-    image2: "images/tutor.jpg",
-    name: "Ranjeet Singh",
-    work: "Bachlor from Teerthanker Mahaveer university",
+    image1: 'images/tiles.svg',
+    image2: 'images/tutor.jpg',
+    name: 'Ranjeet Singh',
+    work: 'Bachlor from Teerthanker Mahaveer university',
     details:
-      "Experienced in front end and backend development, teach students remotly using many tools.",
+      'Experienced in front end and backend development, teach students remotly using many tools.',
   },
 
   {
-    image1: "images/tiles.svg",
-    image2: "images/tutor.jpg",
-    name: "Ranjeet Singh",
-    work: "Bachlor from Teerthanker Mahaveer university",
+    image1: 'images/tiles.svg',
+    image2: 'images/tutor.jpg',
+    name: 'Ranjeet Singh',
+    work: 'Bachlor from Teerthanker Mahaveer university',
     details:
-      "Experienced in front end and backend development, teach students remotly using many tools.",
+      'Experienced in front end and backend development, teach students remotly using many tools.',
   },
 
   {
-    image1: "images/tiles.svg",
-    image2: "images/tutor.jpg",
-    name: "Ranjeet Singh",
-    work: "Bachlor from Teerthanker Mahaveer university",
+    image1: 'images/tiles.svg',
+    image2: 'images/tutor.jpg',
+    name: 'Ranjeet Singh',
+    work: 'Bachlor from Teerthanker Mahaveer university',
     details:
-      "Experienced in front end and backend development, teach students remotly using many tools.",
+      'Experienced in front end and backend development, teach students remotly using many tools.',
   },
 
   {
-    image1: "images/tiles.svg",
-    image2: "images/tutor.jpg",
-    name: "Ranjeet Singh",
-    work: "Bachlor from Teerthanker Mahaveer university",
+    image1: 'images/tiles.svg',
+    image2: 'images/tutor.jpg',
+    name: 'Ranjeet Singh',
+    work: 'Bachlor from Teerthanker Mahaveer university',
     details:
-      "Experienced in front end and backend development, teach students remotly using many tools.",
+      'Experienced in front end and backend development, teach students remotly using many tools.',
   },
 
   {
-    image1: "images/tiles.svg",
-    image2: "images/tutor.jpg",
-    name: "Ranjeet Singh",
-    work: "Bachlor from Teerthanker Mahaveer university",
+    image1: 'images/tiles.svg',
+    image2: 'images/tutor.jpg',
+    name: 'Ranjeet Singh',
+    work: 'Bachlor from Teerthanker Mahaveer university',
     details:
-      "Experienced in front end and backend development, teach students remotly using many tools.",
+      'Experienced in front end and backend development, teach students remotly using many tools.',
   },
 ];
 
 function display() {
-  const container = document.querySelector(".featured-tutors");
+  const container = document.querySelector('.featured-tutors');
   container.innerHTML = `
   <h2 class="feature-heading">Featured Tutors</h2>
   <hr>
@@ -145,11 +145,11 @@ function display() {
   </div>
   `;
 
-  const btnMore = document.querySelector(".btn-more");
-  const more = document.querySelector(".more");
+  const btnMore = document.querySelector('.btn-more');
+  const more = document.querySelector('.more');
   function show(){
-    more.style.display="block";
-    btnMore.style.display="none";
+    more.style.display='block';
+    btnMore.style.display='none';
   }
   
   btnMore.addEventListener('click', show);

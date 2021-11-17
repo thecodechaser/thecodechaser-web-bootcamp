@@ -2,7 +2,7 @@
 
 .header-logo:hover {
   transition: 1s ease-in-out;
-   transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 
 .headline-heading1:hover,
@@ -16,21 +16,21 @@
 
 .hero-img:hover {
   cursor: pointer;
-    transition: 1s ease-in-out;
-    transform: scale(1.04);
+  transition: 1s ease-in-out;
+  transform: scale(1.04);
 }
 
 .highlight-item:hover {
   border: 1px solid white;
   cursor: pointer;
-    transition: 1s ease-in-out;
-    transform: scale(1.08);
+  transition: 1s ease-in-out;
+  transform: scale(1.08);
 }
 
 .tutor-img2:hover {
   cursor: pointer;
-    transition: 1s ease-in-out;
-    transform: scale(1.08);
+  transition: 1s ease-in-out;
+  transform: scale(1.08);
 }
 
 .copyright-logo:hover {
@@ -40,12 +40,12 @@
 
 .copyright-details:hover {
   color: white;
-   transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
   transform: translate(30px);
 }
 
 .ach-item:hover {
   cursor: pointer;
-    transition: 1s ease-in-out;
-    transform: scale(1.08);
+  transition: 1s ease-in-out;
+  transform: scale(1.08);
 }

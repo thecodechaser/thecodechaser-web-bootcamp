@@ -1,11 +1,11 @@
 /* featured courses stylesheet */
 
 .featured-tutors {
- margin-top: 50px;
+  margin-top: 50px;
 }
 
- .feature-heading {
-  color: #4F4C4D;
+.feature-heading {
+  color: #4f4c4d;
   text-align: center;
   margin-bottom: 10px;
 }
@@ -26,16 +26,16 @@
 }
 
 .tutor-img1 {
-  width: 70px;
-  height: 70px;
+  width: 65px;
+  height: 65px;
 }
 
 .tutor-img2 {
   position: absolute;
   left: 30px;
   top: 25px;
-  width: 150px;
-  height: 150px;
+  width: 140px;
+  height: 140px;
 }
 
 .tutor-info {
@@ -44,20 +44,20 @@
 }
 
 .tutor-name {
- color: #4F4C4D;
-  margin-bottom: 0
+  color: #4f4c4d;
+  margin-bottom: 0;
 }
 
 .tutor-work {
   margin-top: 5px;
   color: #ec5242;
   font-style: italic;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .tutor-details {
   margin-top: 25px;
-  color: #4F4C4D;
+  color: #4f4c4d;
 }
 
 .more {
@@ -68,7 +68,7 @@
   border: none;
   margin: auto;
   cursor: pointer;
-  color: #4F4C4D;
+  color: #4f4c4d;
   font-size: 16px;
   font-weight: bold;
 }
@@ -80,25 +80,23 @@
 /* desktop style */
 
 @media screen and (min-width: 768px) {
-  
   .tutors {
-  padding: 50px 70px;
-}
+    padding: 50px 100px;
+  }
 
   .tutor {
-  width: 50%;
-}
+    width: 50%;
+  }
 
-.dekstop-div {
-  display: flex;
-}
+  .dekstop-div {
+    display: flex;
+  }
 
-.more {
-  display: block;
-}
+  .more {
+    display: block;
+  }
 
-.btn-more {
-  display: none;
-}
-
+  .btn-more {
+    display: none;
+  }
 }

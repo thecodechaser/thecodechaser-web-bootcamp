@@ -1,7 +1,6 @@
 /* desktop stylesheet */
 
 @media screen and (min-width: 768px) {
-
   /* header-section */
 
   .header {
@@ -47,7 +46,7 @@
   }
 
   .desktop-menu-item1 {
-     text-decoration: none;
+    text-decoration: none;
     color: #606060;
     border: 3px solid #ec5242;
     margin-left: 30px;
@@ -71,10 +70,10 @@
 
   .hero-img {
     height: 220px;
-  width: 400px;
-  margin: 0;
+    width: 400px;
+    margin: 0;
   }
-  
+
   .aim {
     padding: 30px 250px;
   }
@@ -90,9 +89,9 @@
   /* hightlight-content-section */
 
   hr {
-  text-align: center;
-  width: 5%;
-}
+    text-align: center;
+    width: 5%;
+  }
 
   .hightlight-content {
     padding: 20px 100px;
@@ -112,8 +111,8 @@
   }
 
   .highlight-item-heading {
-   padding-right: 20px;
-   margin-bottom: 0;
+    padding-right: 20px;
+    margin-bottom: 0;
   }
 
   .highlight-item-details {
@@ -126,11 +125,11 @@
   }
 
   .highight-end {
-  display: block;
-  color: white;
-  text-align: center;
-  margin: 30px 0;
-}
+    display: block;
+    color: white;
+    text-align: center;
+    margin: 30px 0;
+  }
 
   /* partners-section */
 
@@ -139,7 +138,7 @@
   }
 
   /* contact-form-section */
-  
+
   .contact-form {
     margin-left: 38%;
   }
