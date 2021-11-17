@@ -1,0 +1,50 @@
+/* animations */
+
+.header-logo:hover {
+  transition: 1s ease-in-out;
+   transform: rotate(360deg);
+}
+
+.headline-heading1:hover,
+.headline-heading2:hover,
+.headline-details:hover,
+.headline-heading3:hover,
+.headline-details2:hover {
+  transition: 1s ease-in-out;
+  transform: translate(25px);
+}
+
+.hero-img:hover {
+  cursor: pointer;
+    transition: 1s ease-in-out;
+    transform: scale(1.04);
+}
+
+.highlight-item:hover {
+  cursor: pointer;
+    transition: 1s ease-in-out;
+    transform: scale(1.08);
+}
+
+.tutor-img2:hover {
+  cursor: pointer;
+    transition: 1s ease-in-out;
+    transform: scale(1.08);
+}
+
+.copyright-logo:hover {
+  transition: 1s ease-in-out;
+  transform: translate(-30px);
+}
+
+.copyright-details:hover {
+  color: white;
+   transition: 1s ease-in-out;
+  transform: translate(30px);
+}
+
+.ach-item:hover {
+  cursor: pointer;
+    transition: 1s ease-in-out;
+    transform: scale(1.08);
+}
