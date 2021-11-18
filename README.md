@@ -29,11 +29,22 @@ Porject's features are added into seperate branch to keep main branch safe.
 ## Online live link
 
 [Visit project online](https://thecodechaser.github.io/thecodechaser-web-bootcamp/)
-Live demo link available after merging this branch to main branch
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+- A text editor(preferably Visual Studio Code)
+
+### Install
+- [Git] (https://git-scm.com/downloads)
+- [Node](https://nodejs.org/en/download/)
+
+### Usage
+- Clone the repository using git clone git@github.com:thecodechaser/thecodechaser-web-bootcamp.git
+- cd into the project folder
+- Run npm install
 
 ## Visit And Open Files
 

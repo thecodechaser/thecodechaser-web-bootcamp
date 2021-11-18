@@ -310,7 +310,7 @@ hr {
 }
 
 .partners-container {
-  padding: 30px 0px;
+  padding: 30px 1px;
 }
 
 .partners-items {
@@ -388,7 +388,6 @@ textarea {
 .copyright-section {
   display: flex;
   gap: 15px;
-  background-color: #d3d3d3;
   padding: 50px 50px;
 }
 
