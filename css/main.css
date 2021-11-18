@@ -24,6 +24,7 @@ body {
   width: 140px;
   height: 38px;
 }
+
 /* navbar-section */
 
 .desktop-nav {
@@ -86,10 +87,9 @@ body {
 .hero-section {
   display: flex;
   flex-direction: column;
-  justify-content: baseline;
   gap: 0;
   margin: 5px 10px;
-  padding-left: 20px 5px;
+  padding: 20px 5px;
 }
 
 .headline-heading1 {
@@ -153,9 +153,8 @@ body {
 .aim {
   display: flex;
   flex-direction: column;
-  justify-content: baseline;
   margin: 5px 10px;
-  padding-left: 20px 10px;
+  padding: 20px 10px;
 }
 
 .aim-heading {
@@ -176,9 +175,8 @@ body {
 .achievments {
   display: flex;
   flex-direction: column;
-  justify-content: baseline;
   margin: 5px 10px;
-  padding-left: 20px 10px;
+  padding: 20px 10px;
 }
 
 .ach-heading {
@@ -260,7 +258,6 @@ hr {
 .hightlight-content {
   display: flex;
   flex-direction: column;
-  justify-content: baseline;
   margin-top: 40px;
   gap: 12px;
 }

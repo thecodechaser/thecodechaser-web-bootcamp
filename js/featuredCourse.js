@@ -141,18 +141,15 @@ function display() {
   </div>
   </div>
   </div>
-
   </div>
   `;
-
   const btnMore = document.querySelector('.btn-more');
   const more = document.querySelector('.more');
-  function show(){
-    more.style.display='block';
-    btnMore.style.display='none';
+  function show() {
+    more.style.display = 'block';
+    btnMore.style.display = 'none';
   }
-  
+
   btnMore.addEventListener('click', show);
 }
-
 display();

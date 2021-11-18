@@ -1,15 +1,15 @@
-const buttonOpen= document.querySelector('.btn-open');
-const buttonClose= document.querySelector('.btn-close');
+const buttonOpen = document.querySelector('.btn-open');
+const buttonClose = document.querySelector('.btn-close');
 const menuItem = document.querySelectorAll('.mobile-menu-item');
 
-function open(){
+function open() {
   const container = document.querySelector('.mobile-menu-container');
-  container.style.display='block';
+  container.style.display = 'block';
 }
 
-function close(){
-const container = document.querySelector('.mobile-menu-container');
-  container.style.display='none';
+function close() {
+  const container = document.querySelector('.mobile-menu-container');
+  container.style.display = 'none';
 }
 
 buttonOpen.addEventListener('click', open);
