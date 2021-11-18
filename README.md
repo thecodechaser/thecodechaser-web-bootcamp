@@ -38,11 +38,11 @@ To get a local copy up and running follow these simple example steps.
 - A text editor(preferably Visual Studio Code)
 
 ### Install
-- [Git] (https://git-scm.com/downloads)
+- [Git](https://git-scm.com/downloads)
 - [Node](https://nodejs.org/en/download/)
 
 ### Usage
-- Clone the repository using git clone git@github.com:thecodechaser/thecodechaser-web-bootcamp.git
+- Clone the repository using git clone ```git@github.com:thecodechaser/thecodechaser-web-bootcamp.git```
 - cd into the project folder
 - Run npm install
 
