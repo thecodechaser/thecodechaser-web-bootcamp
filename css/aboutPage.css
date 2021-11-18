@@ -1,0 +1,27 @@
+/* stylesheet */
+
+@media screen and (min-width: 768px) {
+  .hero-section-a {
+    padding: 30px 220px;
+  }
+
+  .headline-heading1-a {
+    font-size: 27px;
+    font-weight: 100;
+    color: #ec5242;
+    margin-bottom: 0;
+  }
+
+  .headline-heading2-a {
+    font-size: 40px;
+    color: #ec5242;
+    margin-bottom: 15px;
+    margin-top: 5px;
+  }
+}
+
+@media screen and (min-width: 970px) {
+  .hero-section-a {
+    padding: 30px 280px;
+  }
+}

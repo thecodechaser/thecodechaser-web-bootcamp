@@ -1,0 +1,196 @@
+/* desktop stylesheet */
+
+@media screen and (min-width: 768px) {
+  /* header-section */
+
+  .header {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    padding: 10px 125px;
+  }
+
+  .fab {
+    color: #d3d3d3;
+  }
+
+  .header-menu {
+    color: #d3d3d3;
+    text-decoration: none;
+    font-size: 12px;
+  }
+
+  .header-logo-a {
+    display: block;
+  }
+
+  /* nav-bar-section */
+
+  .mobile-nav {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: block;
+  }
+
+  .desktop-menu-items {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+  }
+
+  .desktop-menu-item {
+    text-decoration: none;
+    color: #272a31;
+  }
+
+  .desktop-menu-item1 {
+    text-decoration: none;
+    color: #272a31;
+    border: 3px solid #ec5242;
+    padding: 7px 5px;
+  }
+
+  .desktop-menu-item:hover {
+    color: #ec5242;
+    text-decoration: underline;
+  }
+
+  /* hero-section */
+
+  .hero-section {
+    padding: 30px 150px 30px 40px;
+  }
+
+  .headline-heading1 {
+    font-size: 35px;
+  }
+
+  .headline-heading2 {
+    font-size: 47px;
+  }
+
+  .headline-img-container {
+    display: flex;
+  }
+
+  .hero-img {
+    height: 220px;
+    width: 400px;
+    margin: 0;
+  }
+
+  .aim {
+    padding: 30px 250px;
+  }
+
+  .achievments {
+    padding: 30px 250px;
+  }
+
+  .ach-container {
+    flex-direction: row;
+  }
+
+  /* hightlight-content-section */
+
+  hr {
+    text-align: center;
+    width: 5%;
+  }
+
+  .hightlight-content {
+    /* padding: 20px 100px; */
+    flex-direction: row;
+  }
+
+  .highlight-item {
+    flex-direction: column;
+    width: 300px;
+    padding: 5px 15px;
+    align-items: center;
+  }
+
+  .highlight-item-icon {
+    height: 50px;
+    width: 50px;
+  }
+
+  .highlight-item-heading {
+    padding-right: 20px;
+    margin-bottom: 0;
+  }
+
+  .highlight-item-details {
+    letter-spacing: 0;
+    width: 100%;
+  }
+
+  .button.join-us {
+    display: none;
+  }
+
+  .highight-end {
+    display: block;
+    color: #d3d3d3;
+    text-align: center;
+    margin: 30px 0;
+  }
+
+  /* partners-section */
+
+  .partners-container {
+    padding: 50px 100px;
+  }
+
+  /* contact-form-section */
+
+  .contact-form {
+    margin-left: 30%;
+  }
+
+  /* copyright-section */
+
+  .copyright-section {
+    padding-left: 22%;
+  }
+
+  .copyright-section-1 {
+    padding-left: 22%;
+  }
+}
+
+@media screen and (min-width: 970px) {
+  .hero-section {
+    padding: 30px 200px 50px 90px;
+  }
+
+  .contact-form {
+    margin-left: 38%;
+  }
+
+  .tutors {
+    padding: 50px 170px;
+  }
+
+  .header2 {
+    padding: 0 120px;
+  }
+
+  .hightlight-content {
+    padding: 20px 100px;
+  }
+
+  .partners-container {
+    padding: 50px 140px;
+  }
+
+  .copyright-section {
+    padding-left: 36%;
+  }
+
+  .copyright-section-1 {
+    padding-left: 36%;
+  }
+}

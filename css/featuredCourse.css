@@ -1,0 +1,103 @@
+/* featured courses stylesheet */
+
+.featured-tutors {
+  margin-top: 50px;
+}
+
+.feature-heading {
+  color: #272a31;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.tutors {
+  padding: 50px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.tutor {
+  display: flex;
+}
+
+.tutor-img-cont {
+  position: relative;
+}
+
+.tutor-img1 {
+  width: 60px;
+  height: 60px;
+}
+
+.tutor-img2 {
+  position: absolute;
+  left: 30px;
+  top: 25px;
+  width: 120px;
+  height: 120px;
+}
+
+.tutor-info {
+  margin-left: 150px;
+  width: 50%;
+}
+
+.tutor-name {
+  color: #272a31;
+  margin-bottom: 0;
+}
+
+.tutor-work {
+  margin-top: 5px;
+  color: #ec5242;
+  font-style: italic;
+  font-size: 15px;
+}
+
+.tutor-details {
+  margin-top: 25px;
+  color: #272a31;
+}
+
+.more {
+  display: none;
+}
+
+.btn-more {
+  border: none;
+  margin: auto;
+  cursor: pointer;
+  color: #272a31;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.fa-chevron-down {
+  color: #ec5242;
+}
+
+.fa-bars {
+  color: #272a31;
+  font-size: 30px;
+}
+
+/* desktop style */
+
+@media screen and (min-width: 768px) {
+  .tutor {
+    width: 50%;
+  }
+
+  .dekstop-div {
+    display: flex;
+  }
+
+  .more {
+    display: block;
+  }
+
+  .btn-more {
+    display: none;
+  }
+}
