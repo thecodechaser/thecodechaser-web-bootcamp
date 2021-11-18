@@ -11,19 +11,18 @@
   }
 
   .fab {
-    color: white;
+    color: #d3d3d3;
   }
 
   .header-menu {
-    color: white;
+    color: #d3d3d3;
     text-decoration: none;
     font-size: 12px;
   }
 
-  .header2 {
-    padding: 0 120px;
+  .header-logo-a {
+    display: block;
   }
-
   /* nav-bar-section */
 
   .mobile-nav {
@@ -42,15 +41,14 @@
 
   .desktop-menu-item {
     text-decoration: none;
-    color: #606060;
+    color: #272a31;
   }
 
   .desktop-menu-item1 {
     text-decoration: none;
-    color: #606060;
+    color: #272a31;
     border: 3px solid #ec5242;
-    margin-left: 30px;
-    padding: 7px 7px;
+    padding: 7px 5px;
   }
 
   .desktop-menu-item:hover {
@@ -61,7 +59,15 @@
   /* hero-section */
 
   .hero-section {
-    padding: 30px 250px;
+    padding: 30px 100px;
+  }
+
+  .headline-heading1 {
+    font-size: 25px;
+  }
+
+  .headline-heading2 {
+    font-size: 35px;
   }
 
   .headline-img-container {
@@ -94,7 +100,7 @@
   }
 
   .hightlight-content {
-    padding: 20px 100px;
+    /* padding: 20px 100px; */
     flex-direction: row;
   }
 
@@ -126,7 +132,7 @@
 
   .highight-end {
     display: block;
-    color: white;
+    color: #d3d3d3;
     text-align: center;
     margin: 30px 0;
   }
@@ -140,12 +146,50 @@
   /* contact-form-section */
 
   .contact-form {
-    margin-left: 38%;
+    margin-left: 30%;
   }
 
   /* copyright-section */
 
   .copyright-section {
+    padding-left: 22%;
+  }
+
+  .copyright-section-1 {
+    padding-left: 22%;
+  }
+}
+
+@media screen and (min-width: 970px) {
+  .hero-section {
+    padding: 30px 250px;
+  }
+
+  .contact-form {
+    margin-left: 38%;
+  }
+
+  .tutors {
+    padding: 50px 170px;
+  }
+
+  .header2 {
+    padding: 0 120px;
+  }
+
+  .hightlight-content {
+    padding: 20px 100px;
+  }
+
+  .partners-container {
+    padding: 50px 140px;
+  }
+
+  .copyright-section {
+    padding-left: 36%;
+  }
+
+  .copyright-section-1 {
     padding-left: 36%;
   }
 }

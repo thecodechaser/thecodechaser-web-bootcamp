@@ -5,16 +5,17 @@
 }
 
 .feature-heading {
-  color: #4f4c4d;
+  color: #272a31;
   text-align: center;
   margin-bottom: 10px;
 }
 
 .tutors {
-  padding: 50px 30px;
+  /* padding: 50px 30px; */
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  /* margin: auto; */
 }
 
 .tutor {
@@ -26,16 +27,16 @@
 }
 
 .tutor-img1 {
-  width: 65px;
-  height: 65px;
+  width: 60px;
+  height: 60px;
 }
 
 .tutor-img2 {
   position: absolute;
   left: 30px;
   top: 25px;
-  width: 140px;
-  height: 140px;
+  width: 120px;
+  height: 120px;
 }
 
 .tutor-info {
@@ -44,7 +45,7 @@
 }
 
 .tutor-name {
-  color: #4f4c4d;
+  color: #272a31;
   margin-bottom: 0;
 }
 
@@ -57,7 +58,7 @@
 
 .tutor-details {
   margin-top: 25px;
-  color: #4f4c4d;
+  color: #272a31;
 }
 
 .more {
@@ -68,22 +69,23 @@
   border: none;
   margin: auto;
   cursor: pointer;
-  color: #4f4c4d;
+  color: #272a31;
   font-size: 16px;
   font-weight: bold;
 }
 
-.fas {
+.fa-chevron-down {
   color: #ec5242;
+}
+
+.fa-bars {
+  color: #272a31;
+  font-size: 30px;
 }
 
 /* desktop style */
 
 @media screen and (min-width: 768px) {
-  .tutors {
-    padding: 50px 100px;
-  }
-
   .tutor {
     width: 50%;
   }

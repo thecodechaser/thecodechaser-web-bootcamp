@@ -21,7 +21,7 @@
 }
 
 .highlight-item:hover {
-  border: 1px solid white;
+  border: 1px solid #d3d3d3;
   cursor: pointer;
   transition: 1s ease-in-out;
   transform: scale(1.08);
@@ -38,8 +38,8 @@
   transform: translate(-30px);
 }
 
-.copyright-details:hover {
-  color: white;
+.copyright-details:hover,
+.copyright-details-1:hover {
   transition: 1s ease-in-out;
   transform: translate(30px);
 }

@@ -25,6 +25,10 @@ body {
   height: 38px;
 }
 
+.header-logo-a {
+  display: none;
+}
+
 /* navbar-section */
 
 .desktop-nav {
@@ -34,11 +38,6 @@ body {
 .btn-open {
   border: none;
   cursor: pointer;
-}
-
-.hamburger-icon {
-  width: 30px;
-  height: 20px;
 }
 
 .mobile-menu-container {
@@ -56,7 +55,7 @@ body {
   position: absolute;
   top: 10px;
   right: 60px;
-  color: white;
+  color: #d3d3d3;
   border: none;
   background-color: transparent;
   font-size: 20px;
@@ -72,14 +71,14 @@ body {
 
 .mobile-menu-item {
   padding: 10px;
-  color: white;
+  color: #d3d3d3;
   text-decoration: none;
   font-size: 22px;
 }
 
 .mobile-menu-item:hover {
-  color: #606060;
-  border: 1px solid #606060;
+  color: #272a31;
+  border: 1px solid #272a31;
 }
 
 /* hero-section */
@@ -100,7 +99,6 @@ body {
 }
 
 .headline-heading2 {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
   color: #ec5242;
   margin-bottom: 15px;
@@ -108,7 +106,7 @@ body {
 }
 
 .headline-details {
-  color: #606060;
+  color: #272a31;
   font-weight: lighter;
   font-size: 17px;
   letter-spacing: 1px;
@@ -122,21 +120,19 @@ body {
 
 .headline-heading3 {
   margin-top: 60px;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  color: #4f4c4d;
+  color: #272a31;
   margin-bottom: 0;
 }
 
 .headline-details2 {
-  color: #606060;
+  color: #272a31;
   margin-top: 10px;
   font-size: 18px;
   letter-spacing: 1px;
 }
 
 .email {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   color: #272a31;
   margin-top: 0;
@@ -145,7 +141,7 @@ body {
 }
 
 .fas {
-  color: #606060;
+  color: #272a31;
   font-size: 15px;
   margin-left: 10px;
 }
@@ -159,15 +155,14 @@ body {
 
 .aim-heading {
   margin-top: 60px;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  color: #4f4c4d;
+  color: #272a31;
   margin-bottom: 0;
   text-align: center;
 }
 
 .aim-details {
-  color: #606060;
+  color: #272a31;
   font-weight: lighter;
   font-size: 17px;
 }
@@ -181,15 +176,14 @@ body {
 
 .ach-heading {
   margin-top: 60px;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  color: #4f4c4d;
+  color: #272a31;
   margin-bottom: 0;
   text-align: center;
 }
 
 .ach-details {
-  color: #606060;
+  color: #272a31;
   font-weight: lighter;
   font-size: 17px;
   text-align: center;
@@ -220,13 +214,13 @@ body {
 }
 
 .ach-info-h {
-  color: white;
+  color: #d3d3d3;
   text-align: center;
   font-weight: bold;
 }
 
 .ach-info-p {
-  color: white;
+  color: #d3d3d3;
   text-align: center;
   font-size: 17px;
 }
@@ -236,14 +230,13 @@ body {
 .highlight-section {
   background-image: url("../images/bg-shapes.svg");
   background-size: contain;
-  font-family: Arial, Helvetica, sans-serif;
   background-color: #272a31;
   margin-top: 40px;
   padding: 25px 15px;
 }
 
 .highlight-heading {
-  color: white;
+  color: #d3d3d3;
   text-align: center;
   margin-bottom: 10px;
 }
@@ -280,7 +273,7 @@ hr {
 }
 
 .highlight-item-details {
-  color: white;
+  color: #d3d3d3;
   width: 60%;
   margin-left: 10px;
   font-weight: lighter;
@@ -294,7 +287,7 @@ hr {
   margin-bottom: 25px;
   padding: 20px;
   cursor: pointer;
-  color: white;
+  color: #d3d3d3;
   font-size: 17px;
   margin-left: 20%;
   border-radius: 7px;
@@ -312,12 +305,12 @@ hr {
 
 .partners-heading {
   text-align: center;
-  color: white;
+  color: #d3d3d3;
   padding-top: 20px;
 }
 
 .partners-container {
-  padding: 30px 0;
+  padding: 30px 0px;
 }
 
 .partners-items {
@@ -348,18 +341,18 @@ hr {
 }
 
 .contact-heading {
-  color: white;
+  color: #d3d3d3;
   text-align: center;
   margin-bottom: 10px;
 }
 
 .contact-hr {
-  border: 1px solid white;
+  border: 1px solid #d3d3d3;
 }
 
 .contact-details {
   text-align: center;
-  color: white;
+  color: #d3d3d3;
   font-weight: lighter;
 }
 
@@ -395,8 +388,8 @@ textarea {
 .copyright-section {
   display: flex;
   gap: 15px;
-  background-color: #272a31;
-  padding: 30px 10px;
+  background-color: #d3d3d3;
+  padding: 50px 50px;
 }
 
 .copyright-logo {
@@ -406,5 +399,16 @@ textarea {
 }
 
 .copyright-details {
-  color: #606060;
+  color: #272a31;
+}
+
+.copyright-details-1 {
+  color: #d3d3d3;
+}
+
+.copyright-section-1 {
+  display: flex;
+  gap: 15px;
+  background-color: #272a31;
+  padding: 30px 10px;
 }
