@@ -60,15 +60,15 @@
   /* hero-section */
 
   .hero-section {
-    padding: 30px 100px;
+    padding: 30px 150px 30px 40px;
   }
 
   .headline-heading1 {
-    font-size: 25px;
+    font-size: 35px;
   }
 
   .headline-heading2 {
-    font-size: 35px;
+    font-size: 47px;
   }
 
   .headline-img-container {
@@ -163,7 +163,7 @@
 
 @media screen and (min-width: 970px) {
   .hero-section {
-    padding: 30px 250px;
+    padding: 30px 200px 50px 90px;
   }
 
   .contact-form {
