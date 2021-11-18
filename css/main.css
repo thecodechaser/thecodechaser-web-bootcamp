@@ -330,7 +330,6 @@ hr {
   width: 200px;
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
   filter: grayscale(100%);
   filter: gray;
 }
@@ -338,7 +337,6 @@ hr {
 .partner-img:hover {
   -webkit-filter: none;
   -moz-filter: none;
-  -ms-filter: none;
   filter: none;
 }
 
