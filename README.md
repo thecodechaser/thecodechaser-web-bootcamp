@@ -2,7 +2,7 @@
 
 # TheCodeChaser Bootcamp
 
-> ThecOdeChaser is a web development bootcamp website, responsive for desktop and mobile screens.
+> ThecodeChaser Bootcamp is a web development boot camp website, responsive for desktop and mobile screens. It delivers all related information and user can submit their query and questions using the mentioned form. 
 
 ## Screenshots:
 
