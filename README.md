@@ -28,7 +28,7 @@ Porject's features are added into seperate branch to keep main branch safe.
 
 ## Online live link
 
-[Visit project online](https://thecodechaser.github.io/thecodechaser-web-bootcamp/)
+[Visit project online](https://web-bootcamp.thecodechaser.com)
 
 ## Getting Started
 
